@@ -1,0 +1,21 @@
+header, footer{
+    background-color: $color-grey-dark;
+    padding: 1rem 4%;
+}
+
+header h1, footer p {
+    color: $accent-color;
+    text-align: center;
+}
+
+footer p {
+    font-size: .75rem;
+}
+
+header {
+    border-bottom: 1px solid $color-grey-light;
+}
+
+footer {
+    border-top: 1px solid $color-grey-light
+}

@@ -1,0 +1,31 @@
+/*
+TABLE OF CONTENTS
+
+1. HEADER - FOOTER
+2. TYPOGRAPHY
+3. NAVIGATION
+4. LAYOUT
+5. RESET
+6. MEDIA
+*/
+
+@import "partials/variables";
+@import "partials/mixins";
+
+/* HEADER - FOOTER ========================= */
+@import "partials/header-footer";
+
+/* TYPOGRAPHY ============================== */
+@import "partials/typography";
+
+/* NAVIGATION ============================== */
+@import "partials/navigation";
+
+/* LAYOUT ================================== */
+@import "partials/layout";
+
+/* RESET =================================== */
+@import "partials/reset";
+
+/* MEDIA =================================== */
+@import "partials/media";

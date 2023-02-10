@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: center;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+        padding-inline-start: 0;
+
+        li a {
+            text-decoration: none;
+            color: $accent-color;
+            transition: all .25s;
+
+            &:hover{
+                font-style: italic;
+                border-bottom: 1px solid red;
+            }
+        }
+    }
+}
